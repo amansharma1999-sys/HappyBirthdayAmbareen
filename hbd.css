@@ -1,0 +1,189 @@
+@media (min-width: 319px) and (max-width: 1029px) {
+    body {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+        font-family: pacifico, "Open Sans", sans-serif;
+    }
+    section {
+        position: relative;
+        top: 35%;
+        left: auto;
+    }
+    .wish {
+        animation: animate 2s linear infinite;
+        text-align: center;
+        font-family: pacifico;
+        font-size: 1.5em;
+        font-weight: normal;
+        padding: 0px 10px 2px 10px;
+        margin: 0px 10px 2px 10px;
+    }
+    h2 {
+        margin: 0;
+        text-align: center;
+    }
+    @keyframes animate {
+        0%,
+        100% {
+            color: #fff;
+            filter: blur(3px);
+            text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff, 0 0 300px #00b3ff, 0 0 400px #00b3ff;
+        }
+        5%,
+        95% {
+            color: #222;
+            filter: blur(0px);
+            text-shadow: 0 0 10px none;
+        }
+    }
+    h1 {
+        margin: 0 0 110px 0;
+        padding: 0;
+        text-align: center;
+    }
+    .name {
+        animation: nextanimate 2s linear infinite;
+        text-align: center;
+        font-family: pacifico;
+        font-size: 2.9em;
+        font-weight: normal;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    @keyframes nextanimate {
+        0%,
+        100% {
+            color: #fff;
+            filter: blur(3px);
+            text-shadow: 0 0 15px #7fff00, 0 0 20px #7fff00, 0 0 40px #7fff00, 0 0 80px #7fff00, 0 0 120px #7fff00, 0 0 200px #7fff00, 0 0 300px #7fff00, 0 0 400px #7fff00;
+        }
+        5%,
+        95% {
+            color: #222;
+            filter: blur(0px);
+            text-shadow: 0 0 10px none;
+        }
+    }
+    .button {
+        position: absolute;
+        top: 100%;
+        left: 42%;
+    }
+    i {
+        text-align: center;
+        margin-right: 8px;
+        margin-left: 8px;
+        color: #00b3ff;
+        text-shadow: 5px;
+    }
+    .fa {
+        padding: 0 3px;
+        transition: transform .3s;
+    }
+    .fa:hover {
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 1030px) {
+    body {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+        font-family: pacifico, "Open Sans", sans-serif;
+    }
+    section {
+        position: relative;
+        top: 35%;
+        left: auto;
+    }
+    .wish {
+        animation: animate 2s linear infinite;
+        text-align: center;
+        font-family: pacifico;
+        font-size: 1.5em;
+        font-weight: normal;
+        padding: 0px 10px 2px 10px;
+        margin: 0px 10px 2px 10px;
+    }
+    h2 {
+        margin: 0;
+        color: #222;
+        text-align: center;
+    }
+    @keyframes animate {
+        0%,
+        100% {
+            color: #fff;
+            filter: blur(2px);
+            text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff, 0 0 300px #00b3ff, 0 0 400px #00b3ff;
+        }
+        5%,
+        95% {
+            color: #222;
+            filter: blur(0px);
+            text-shadow: 0 0 10px none;
+        }
+    }
+    h1 {
+        margin: 0 0 110px 0;
+        padding: 0;
+        color: #222;
+        text-align: center;
+    }
+    .name {
+        animation: nextanimate 2s linear infinite;
+        text-align: center;
+        font-family: pacifico;
+        font-size: 2.9em;
+        font-weight: normal;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    @keyframes nextanimate {
+        0%,
+        100% {
+            color: #fff;
+            filter: blur(2px);
+            text-shadow: 0 0 10px #7fff00, 0 0 20px #7fff00, 0 0 40px #7fff00, 0 0 80px #7fff00, 0 0 120px #7fff00, 0 0 200px #7fff00, 0 0 300px #7fff00, 0 0 400px #7fff00;
+        }
+        5%,
+        95% {
+            color: #222;
+            filter: blur(0px);
+            text-shadow: 0 0 10px none;
+        }
+    }
+    .button {
+        position: absolute;
+        top: 100%;
+        left: 49%;
+    }
+    i {
+        text-align: center;
+        margin-right: 8px;
+        margin-left: 8px;
+        color: #00b3ff;
+        text-shadow: 5px;
+    }
+    .fa {
+        padding: 0 3px;
+        transition: transform .3s;
+    }
+    .fa:hover {
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    a {
+        text-decoration: none;
+    }
+}
