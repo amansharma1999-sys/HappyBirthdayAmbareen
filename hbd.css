@@ -12,7 +12,7 @@
         left: auto;
     }
     .wish {
-        animation: animate 2s linear infinite;
+        animation: animate 1s linear infinite;
         text-align: center;
         font-family: pacifico;
         font-size: 1.5em;
@@ -28,7 +28,7 @@
         0%,
         100% {
             color: #fff;
-            filter: blur(2px);
+            filter: blur(1px);
             text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff, 0 0 300px #00b3ff, 0 0 400px #00b3ff;
         }
         5%,
@@ -44,7 +44,7 @@
         text-align: center;
     }
     .name {
-        animation: nextanimate 2s linear infinite;
+        animation: nextanimate 1s linear infinite;
         text-align: center;
         font-family: pacifico;
         font-size: 2.9em;
@@ -56,7 +56,7 @@
         0%,
         100% {
             color: #fff;
-            filter: blur(2px);
+            filter: blur(1px);
             text-shadow: 0 0 15px #7fff00, 0 0 20px #7fff00, 0 0 40px #7fff00, 0 0 80px #7fff00, 0 0 120px #7fff00, 0 0 200px #7fff00, 0 0 300px #7fff00, 0 0 400px #7fff00;
         }
         5%,
